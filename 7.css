@@ -1,0 +1,102 @@
+div {
+    border: 2px solid rgb(255, 114, 49);
+    margin-top: 10px;      
+    padding: 0;
+    margin-right: 230px;
+    margin-left: 225px;
+    border-right: 2px solid rgb(138, 61, 25);
+    border-bottom:2px solid rgb(138, 61, 25);
+    text-align: justify;
+
+}
+.menu8 {
+    list-style-type: none;
+    margin-top: 0;
+    padding-left: 0;
+    overflow: hidden;
+    display: flex;      
+    justify-content: flex-start;
+}
+
+.menu8 li {
+    float: left;
+  
+}
+.menu8 a:link, .menu8 a:visited {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font: 15px Arial;
+    background-color: rgb(255, 114, 49);
+    border: 4px solid rgb(255, 114, 49);
+    padding: 8px 20px;     
+    display: inline-block; 
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1;   
+}
+   .menu8 a:hover, .menu8 a:active {
+    color: rgb(255, 114, 49);
+    background-color: white;
+    border: 4px solid white;
+    font-size: 13px;
+    font-weight: 600;
+   }
+.menu8 .pusto {
+    background-color: rgb(255, 114, 49);
+    border: 4px solid rgb(255, 114, 49);
+    padding: 8px 20px;
+    padding-left: 660.5px;
+    margin: 0;
+    line-height: 1;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+h1, h3{
+    color: rgb(138, 61, 25);
+    text-align: center;
+}
+p{
+  color: rgb(138, 61, 25); 
+  line-height: 28px;
+  text-indent: 1cm;
+  padding: 10px;
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+.d{
+    font-weight: 900;
+    text-decoration: underline;
+}
+.n{
+    list-style-type: none;
+     display: flex;
+  justify-content: center;
+}
+.n li{
+    float: left;
+    padding: 8px;
+    color:rgb(138, 61, 25); 
+    font-weight: bold;
+    text-align: center;
+}
+.n  a:link, a:visited{
+ color:rgb(138, 61, 25); 
+text-decoration: none; 
+}
+.n a:hover{
+     color:rgb(138, 61, 25); 
+     text-decoration:underline;
+     font-weight: bold;
+}
+.d  a:link, a:visited{
+ color:rgb(138, 61, 25); 
+text-decoration: none; 
+}
+.d a:hover{
+     color:rgb(138, 61, 25); 
+     text-decoration:underline;
+     font-weight: bold;
+}
+
